@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/icon"
+        android:src="@drawable/linkage_loading"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false" />
+
+    <ImageView
+        android:id="@+id/mid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/mid"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:id="@+id/img1"
+            android:layout_height="12dp"
+            android:src="@drawable/toloading" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/unloading" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/unloading" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:text="@string/app_version"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+       android:orientation="horizontal"
+        android:layout_marginBottom="67dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:visibility="invisible"
+        android:text="Connect to Wi-Fi"
+        android:id="@+id/connect_to_wifi"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Proceed with out Wi-Fi"
+        android:id="@+id/proceedwith"
+        android:visibility="invisible"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.43" />
+
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/D:/Project/AndroidProject/LibreAppProj/app/src/main/res/layout/loding.xml -->

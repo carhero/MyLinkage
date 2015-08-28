@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Project/AndroidProject/LibreAppProj/app/src/main/res/values-xxhdpi/diemns.xml -->
+    <eat-comment/>
+    <dimen name="margin_tiny">100dp</dimen>
+</resources>

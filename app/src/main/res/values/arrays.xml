@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="groupsPerLoad">
+        <item name="1">Single Group</item>
+        <item name="2">2 Groups</item>
+        <item name="3">3 Groups</item>
+        <item name="4">4 Groups</item>
+        <item name="5">5 Groups</item>
+        <item name="6">6 Groups</item>
+
+        
+    </string-array>
+    <string-array name="groupsPerLoadValues">
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+        <item name="4">4</item>
+        <item name="5">5</item>
+        <item name="5">6</item>
+        
+    </string-array>
+    <string-array name="imageQuality">
+        <item name="256">Low</item>
+        <item name="512">Medium</item>
+        <item name="1024">Hight</item>
+    </string-array>
+    <string-array name="imageQualityValues">
+        <item name="256">256</item>
+        <item name="512">512</item>
+        <item name="1024">1024</item>
+    </string-array>
+    <string-array name="viewMode">
+        <item name="all">All items</item>
+        <item name="audio_only">Audio only</item>
+        <item name="video_only">Video only</item>
+        <item name="image_only">Image only</item>
+    </string-array>
+    <string-array name="viewModeValues">
+        <item name="all">ALL</item>
+        <item name="audio_only">AUDIO_ONLY</item>
+        <item name="video_only">VIDEO_ONLY</item>
+        <item name="image_only">IMAGE_ONLY</item>
+    </string-array>
+    <string-array name="applicationLanguage">
+        <item name="en">English</item>
+        <item name="vi">Vietnamese</item>
+    </string-array>
+    <string-array name="applicationLanguageValue">
+        <item name="en">en</item>
+        <item name="vi">vi</item>
+    </string-array>
+
+</resources>

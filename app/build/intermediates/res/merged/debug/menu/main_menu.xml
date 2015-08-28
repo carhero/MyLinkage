@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/refresh"
+        android:enabled="true"
+        android:menuCategory="system"
+        android:title="@string/refresh"
+        android:visible="true">
+    </item>
+    
+ 
+  
+
+</menu><!-- From: file:/D:/Project/AndroidProject/LibreAppProj/app/src/main/res/menu/main_menu.xml -->

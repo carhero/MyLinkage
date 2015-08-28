@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Project\AndroidProject\LibreAppProj\app\libs\seamless-xml-1.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="497f05ee745c564e0ab5c26e66e60d4f7502fba3">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\seamless-xml-1.1.0-2f7ac7c8c9a2e28637bf249f4612d66b4b447668.jar" />
+    </item>
+    <item
+        jar="C:\Documents and Settings\adsoft\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-servlet\8.1.12.v20130726\c0a4cba995dcb585a89c524c16370eb9c393f582\jetty-servlet-8.1.12.v20130726.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c0a4cba995dcb585a89c524c16370eb9c393f582">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\jetty-servlet-8.1.12.v20130726-bceb38cb0e190751313a36dd4039f42163392b72.jar" />
+    </item>
+    <item
+        jar="C:\Documents and Settings\adsoft\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-continuation\8.1.12.v20130726\56983c28a934cb2b8cdfcf3a3fa9b28320f7ac7d\jetty-continuation-8.1.12.v20130726.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="56983c28a934cb2b8cdfcf3a3fa9b28320f7ac7d">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\jetty-continuation-8.1.12.v20130726-143f67fac00f0364be0e4eccad5c091f0dbb12cc.jar" />
+    </item>
+    <item
+        jar="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\classes-056842fdbb2ae8b906d0e477bd4281dff7e41265.jar" />
+    </item>
+    <item
+        jar="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\exploded-aar\com.android.support\palette-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="926692214530f39eaed89159237d26cdc0ae6e48">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\classes-860911e1440d003ebffb1f78e35791d1a51d84f2.jar" />
+    </item>
+    <item
+        jar="C:\Documents and Settings\adsoft\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-jdk14\1.7.5\33cf4abac351aa45dd130d31a1e7e33fbbba4762\slf4j-jdk14-1.7.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="33cf4abac351aa45dd130d31a1e7e33fbbba4762">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\slf4j-jdk14-1.7.5-a0a43356b4b91bbd178d4b10f5e048decf5c6386.jar" />
+    </item>
+    <item
+        jar="D:\Project\AndroidProject\LibreAppProj\app\libs\cling-support-2.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3be864b366ec15b075a936ecaeec731d8c62eba3">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\cling-support-2.0.1-f427aa7705b7a66c0f0f883d8c1c0a6509438af1.jar" />
+    </item>
+    <item
+        jar="C:\Documents and Settings\adsoft\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-util\8.1.12.v20130726\255cb3b9a415146252796915d8dc3c3745ff1eb6\jetty-util-8.1.12.v20130726.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="255cb3b9a415146252796915d8dc3c3745ff1eb6">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\jetty-util-8.1.12.v20130726-a954cdb55c52541eb3b8c239d0f0280f659f67fb.jar" />
+    </item>
+    <item
+        jar="C:\Documents and Settings\adsoft\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-server\8.1.12.v20130726\e8d89c85edd00680a7b30bf219e6dba181dc4aa1\jetty-server-8.1.12.v20130726.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e8d89c85edd00680a7b30bf219e6dba181dc4aa1">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\jetty-server-8.1.12.v20130726-518c1dbe324f883a2053cad8428e9c4913842de1.jar" />
+    </item>
+    <item
+        jar="C:\Documents and Settings\adsoft\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.5\6b262da268f8ad9eff941b25503a9198f0a0ac93\slf4j-api-1.7.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6b262da268f8ad9eff941b25503a9198f0a0ac93">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\slf4j-api-1.7.5-fe9d1d5c4d41cb9ca7ca5a8dfc043e6a700ca75b.jar" />
+    </item>
+    <item
+        jar="D:\Project\AndroidProject\LibreAppProj\app\libs\seamless-util-1.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef025cdbb79c4a031148b20a6d59db89c72ea0a3">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\seamless-util-1.1.0-44b8747bf43e44879adce763e362a3beac0b57e3.jar" />
+    </item>
+    <item
+        jar="D:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-34a57f82165fcc191123ae4d70b3d0379c72c265.jar" />
+    </item>
+    <item
+        jar="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\classes-74500a7747f357d1246994809b1342d6c09f6cee.jar" />
+    </item>
+    <item
+        jar="C:\Documents and Settings\adsoft\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-io\8.1.12.v20130726\859ad5da478e34bca888812a81e12cd4dcdef6fd\jetty-io-8.1.12.v20130726.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="859ad5da478e34bca888812a81e12cd4dcdef6fd">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\jetty-io-8.1.12.v20130726-846a1372068445a291cfdd623a545e798d21b815.jar" />
+    </item>
+    <item
+        jar="D:\Project\AndroidProject\LibreAppProj\app\libs\seamless-http-1.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="463012d16bcb06a623d3b931a6cfe19e4beace63">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\seamless-http-1.1.0-dbed1d01adb41e683b3627e4ec2255d9e4fd94ab.jar" />
+    </item>
+    <item
+        jar="C:\Documents and Settings\adsoft\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-client\8.1.12.v20130726\9ff9b1c4c27d76888d01447d9341fb95869271c1\jetty-client-8.1.12.v20130726.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9ff9b1c4c27d76888d01447d9341fb95869271c1">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\jetty-client-8.1.12.v20130726-a393594afaff89c40194fd1dafe6ebc2ad1f7b60.jar" />
+    </item>
+    <item
+        jar="C:\Documents and Settings\adsoft\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-security\8.1.12.v20130726\3e5ba848730a8ca6dc7ee562ebafbb44f49d8abd\jetty-security-8.1.12.v20130726.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3e5ba848730a8ca6dc7ee562ebafbb44f49d8abd">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\jetty-security-8.1.12.v20130726-4799d7fea729f0c403bb0a7d932221993218f9ef.jar" />
+    </item>
+    <item
+        jar="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-dcbd0bcfec64d671a50f39b5a5ab54c3d7115a75.jar" />
+    </item>
+    <item
+        jar="D:\Project\AndroidProject\LibreAppProj\app\libs\cling-core-2.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c588b1493c6f92f3e63755c9b763c740546f805a">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\cling-core-2.0.1-976598593b95c9aa6491958213bae7a3ada94ad0.jar" />
+    </item>
+    <item
+        jar="C:\Documents and Settings\adsoft\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty.orbit\javax.servlet\3.0.0.v201112011016\aaaa85845fb5c59da00193f06b8e5278d8bf3f8\javax.servlet-3.0.0.v201112011016.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0aaaa85845fb5c59da00193f06b8e5278d8bf3f8">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\javax.servlet-3.0.0.v201112011016-b68655b8ec84431b0c632ef0d417b18a462290ca.jar" />
+    </item>
+    <item
+        jar="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\classes-e83b5cac7b5d182ab87f18b1b8e29611f9588401.jar" />
+    </item>
+    <item
+        jar="C:\Documents and Settings\adsoft\.gradle\caches\modules-2\files-2.1\org.eclipse.jetty\jetty-http\8.1.12.v20130726\530b3a21d71ac69279bee129869d7eac031e3533\jetty-http-8.1.12.v20130726.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="530b3a21d71ac69279bee129869d7eac031e3533">
+        <dex dex="D:\Project\AndroidProject\LibreAppProj\app\build\intermediates\pre-dexed\debug\jetty-http-8.1.12.v20130726-5ba9add839bc791afeb73089ee70132450594686.jar" />
+    </item>
+
+</items>

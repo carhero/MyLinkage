@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:background="@color/halftransparent"
+    android:minHeight="50dp" >
+
+    <TextView
+        android:id="@+id/itemdevname"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="4dp"
+        android:layout_gravity="center"
+        android:maxWidth="80dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/minus"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/shared_minus2x" />
+
+    <SeekBar
+        android:id="@+id/sBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:max="32"
+        android:maxHeight="0.5dp"
+        android:minHeight="0.5dp"
+
+        android:thumb="@drawable/seekbar_thumb_big"
+        android:thumbOffset="8dp" />
+
+    <ImageView
+        android:id="@+id/plus"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="2dp"
+        android:src="@drawable/shared_plus2x" />
+
+</LinearLayout><!-- From: file:/D:/Project/AndroidProject/LibreAppProj/app/src/main/res/layout/item_volume.xml -->

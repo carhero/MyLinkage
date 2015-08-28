@@ -1,0 +1,455 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* README.md
+* app/
+* app/build.gradle
+* app/libs/
+* app/libs/cling-core-1.0.5.jar
+* app/libs/cling-support-1.0.5.jar
+* app/libs/http-20070405.jar
+* app/libs/teleal-common-1.0.13.jar
+* app/src/
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/java/
+* app/src/main/java/com/
+* app/src/main/java/com/app/
+* app/src/main/java/com/app/dlna/
+* app/src/main/java/com/app/dlna/dmc/
+* app/src/main/java/com/app/dlna/dmc/gui/
+* app/src/main/java/com/app/dlna/dmc/gui/abstractactivity/
+* app/src/main/java/com/app/dlna/dmc/gui/abstractactivity/UpnpListenerActivity.java
+* app/src/main/java/com/app/dlna/dmc/gui/localcontent/
+* app/src/main/java/com/app/dlna/dmc/gui/localcontent/BrowseLocalActivity.java
+* app/src/main/java/com/app/dlna/dmc/gui/localcontent/ItemDisplay.java
+* app/src/main/java/com/app/dlna/dmc/gui/localcontent/ItemDisplayArrayAdapter.java
+* app/src/main/java/com/app/dlna/dmc/processor/
+* app/src/main/java/com/app/dlna/dmc/processor/http/
+* app/src/main/java/com/app/dlna/dmc/processor/http/HTTPHelper.java
+* app/src/main/java/com/app/dlna/dmc/processor/http/HTTPLinkManager.java
+* app/src/main/java/com/app/dlna/dmc/processor/http/HTTPServerData.java
+* app/src/main/java/com/app/dlna/dmc/processor/http/HttpThread.java
+* app/src/main/java/com/app/dlna/dmc/processor/impl/
+* app/src/main/java/com/app/dlna/dmc/processor/impl/DMRProcessorImpl.java
+* app/src/main/java/com/app/dlna/dmc/processor/impl/DMRProcessorImplLocal.java
+* app/src/main/java/com/app/dlna/dmc/processor/impl/DMSProcessorImpl.java
+* app/src/main/java/com/app/dlna/dmc/processor/impl/RemoteProcessorImpl.java
+* app/src/main/java/com/app/dlna/dmc/processor/impl/UpnpProcessorImpl.java
+* app/src/main/java/com/app/dlna/dmc/processor/interfaces/
+* app/src/main/java/com/app/dlna/dmc/processor/interfaces/DMRProcessor.java
+* app/src/main/java/com/app/dlna/dmc/processor/interfaces/DMSProcessor.java
+* app/src/main/java/com/app/dlna/dmc/processor/interfaces/RemoteProcessor.java
+* app/src/main/java/com/app/dlna/dmc/processor/interfaces/UpnpProcessor.java
+* app/src/main/java/com/app/dlna/dmc/processor/upnp/
+* app/src/main/java/com/app/dlna/dmc/processor/upnp/CoreUpnpService.java
+* app/src/main/java/com/app/dlna/dmc/utility/
+* app/src/main/java/com/app/dlna/dmc/utility/Utility.java
+* app/src/main/java/com/libre/
+* app/src/main/java/com/libre/client/
+* app/src/main/java/com/libre/client/AppPreference.java
+* app/src/main/java/com/libre/client/DMRNodeData.java
+* app/src/main/java/com/libre/client/LSSDPNodeDB.java
+* app/src/main/java/com/libre/client/LSSDPNodes.java
+* app/src/main/java/com/libre/client/LUCIClient.java
+* app/src/main/java/com/libre/client/LUCIControl.java
+* app/src/main/java/com/libre/client/LUCIPacket.java
+* app/src/main/java/com/libre/client/ScanThread.java
+* app/src/main/java/com/libre/client/Util.java
+* app/src/main/java/com/libre/client/Utils.java
+* app/src/main/java/com/libre/client/WifiConnect.java
+* app/src/main/java/com/libre/client/activity/
+* app/src/main/java/com/libre/client/activity/AdapterItem.java
+* app/src/main/java/com/libre/client/activity/BaseActivity.java
+* app/src/main/java/com/libre/client/activity/Constant.java
+* app/src/main/java/com/libre/client/activity/DIDLObjectArrayAdapter.java
+* app/src/main/java/com/libre/client/activity/DMRActivity.java
+* app/src/main/java/com/libre/client/activity/DMRDev.java
+* app/src/main/java/com/libre/client/activity/DMRModel.java
+* app/src/main/java/com/libre/client/activity/DMSBrowserActivity.java
+* app/src/main/java/com/libre/client/activity/DMSListActivity.java
+* app/src/main/java/com/libre/client/activity/GroupListActivity.java
+* app/src/main/java/com/libre/client/activity/LazyAdapter.java
+* app/src/main/java/com/libre/client/activity/LibreApplication.java
+* app/src/main/java/com/libre/client/activity/LmpListViewActivity.java
+* app/src/main/java/com/libre/client/activity/LodingActivity.java
+* app/src/main/java/com/libre/client/activity/MainActivity.java
+* app/src/main/java/com/libre/client/activity/MultiZoneModel.java
+* app/src/main/java/com/libre/client/activity/MySlider.java
+* app/src/main/java/com/libre/client/activity/NetconfigActivity.java
+* app/src/main/java/com/libre/client/activity/NetworkStateReceiver.java
+* app/src/main/java/com/libre/client/activity/RemoteDMRArrayAdapter.java
+* app/src/main/java/com/libre/client/activity/RemoteDMSArrayAdapter.java
+* app/src/main/java/com/libre/client/activity/SettingsActivity.java
+* app/src/main/java/com/libre/client/activity/Utils.java
+* app/src/main/java/com/libre/client/music/
+* app/src/main/java/com/libre/client/music/ContentDirectoryService.java
+* app/src/main/java/com/libre/client/music/ContentNode.java
+* app/src/main/java/com/libre/client/music/ContentTree.java
+* app/src/main/java/com/libre/client/music/HttpServer.java
+* app/src/main/java/com/libre/client/music/MediaServer.java
+* app/src/main/java/com/libre/client/music/MusicBitmap.java
+* app/src/main/java/com/libre/client/music/MusicServer.java
+* app/src/main/java/com/libre/client/remotecommandadapator.java
+* app/src/main/java/com/libre/client/util/
+* app/src/main/java/com/libre/client/util/DMRControlHelper.java
+* app/src/main/java/com/libre/client/util/DMSBrowseHelper.java
+* app/src/main/java/com/libre/client/util/NetUiUtils.java
+* app/src/main/java/com/libre/client/util/PlaybackHelper.java
+* app/src/main/java/com/libre/client/util/ThreadPoolManager.java
+* app/src/main/java/com/libre/client/util/UpnpDeviceManager.java
+* app/src/main/java/com/libre/constants/
+* app/src/main/java/com/libre/constants/LSSDPCONST.java
+* app/src/main/java/com/libre/constants/MIDCONST.java
+* app/src/main/java/com/libre/constants/WIFICONST.java
+* app/src/main/res/
+* app/src/main/res/anim/
+* app/src/main/res/anim/btnani.xml
+* app/src/main/res/anim/in_from_left.xml
+* app/src/main/res/anim/in_from_right.xml
+* app/src/main/res/anim/out_to_left.xml
+* app/src/main/res/anim/out_to_right.xml
+* app/src/main/res/drawable-hdpi/
+* app/src/main/res/drawable-hdpi/action_help.png
+* app/src/main/res/drawable-hdpi/advance.png
+* app/src/main/res/drawable-hdpi/arrow.png
+* app/src/main/res/drawable-hdpi/back.png
+* app/src/main/res/drawable-hdpi/background.png
+* app/src/main/res/drawable-hdpi/blue.png
+* app/src/main/res/drawable-hdpi/cloudmusic.png
+* app/src/main/res/drawable-hdpi/config.png
+* app/src/main/res/drawable-hdpi/defaultcover.png
+* app/src/main/res/drawable-hdpi/dlna.png
+* app/src/main/res/drawable-hdpi/drawer_shadow.9.png
+* app/src/main/res/drawable-hdpi/edit_purple.png
+* app/src/main/res/drawable-hdpi/folder1.png
+* app/src/main/res/drawable-hdpi/free.png
+* app/src/main/res/drawable-hdpi/gradient_bg.xml
+* app/src/main/res/drawable-hdpi/gradient_bg_hover.xml
+* app/src/main/res/drawable-hdpi/group.png
+* app/src/main/res/drawable-hdpi/heart.png
+* app/src/main/res/drawable-hdpi/help.png
+* app/src/main/res/drawable-hdpi/home.png
+* app/src/main/res/drawable-hdpi/ic_drawer.png
+* app/src/main/res/drawable-hdpi/ic_launcher.png
+* app/src/main/res/drawable-hdpi/image_bg.xml
+* app/src/main/res/drawable-hdpi/launching.png
+* app/src/main/res/drawable-hdpi/line.png
+* app/src/main/res/drawable-hdpi/list_selector.xml
+* app/src/main/res/drawable-hdpi/localnetwork.png
+* app/src/main/res/drawable-hdpi/master.png
+* app/src/main/res/drawable-hdpi/more_button.png
+* app/src/main/res/drawable-hdpi/multi.png
+* app/src/main/res/drawable-hdpi/music.png
+* app/src/main/res/drawable-hdpi/next.png
+* app/src/main/res/drawable-hdpi/next2.png
+* app/src/main/res/drawable-hdpi/next_remote.png
+* app/src/main/res/drawable-hdpi/no_image.png
+* app/src/main/res/drawable-hdpi/note.png
+* app/src/main/res/drawable-hdpi/note2.png
+* app/src/main/res/drawable-hdpi/nowplaying.png
+* app/src/main/res/drawable-hdpi/off1.png
+* app/src/main/res/drawable-hdpi/off2.png
+* app/src/main/res/drawable-hdpi/on1.png
+* app/src/main/res/drawable-hdpi/on2.png
+* app/src/main/res/drawable-hdpi/pause.png
+* app/src/main/res/drawable-hdpi/pause2.png
+* app/src/main/res/drawable-hdpi/pause_remote.png
+* app/src/main/res/drawable-hdpi/play.png
+* app/src/main/res/drawable-hdpi/play2.png
+* app/src/main/res/drawable-hdpi/play3.png
+* app/src/main/res/drawable-hdpi/play_remote.png
+* app/src/main/res/drawable-hdpi/prev_remote.png
+* app/src/main/res/drawable-hdpi/previous.png
+* app/src/main/res/drawable-hdpi/previous2.png
+* app/src/main/res/drawable-hdpi/rectangle.xml
+* app/src/main/res/drawable-hdpi/redo.png
+* app/src/main/res/drawable-hdpi/refresh.png
+* app/src/main/res/drawable-hdpi/refresh2.png
+* app/src/main/res/drawable-hdpi/refreshmid.png
+* app/src/main/res/drawable-hdpi/remote.png
+* app/src/main/res/drawable-hdpi/remote_control.png
+* app/src/main/res/drawable-hdpi/rihanna.png
+* app/src/main/res/drawable-hdpi/setting.png
+* app/src/main/res/drawable-hdpi/settingwifi.png
+* app/src/main/res/drawable-hdpi/shared_minus.png
+* app/src/main/res/drawable-hdpi/shared_minus2x.png
+* app/src/main/res/drawable-hdpi/shared_music_node.png
+* app/src/main/res/drawable-hdpi/shared_music_node2.png
+* app/src/main/res/drawable-hdpi/shared_music_node_big.png
+* app/src/main/res/drawable-hdpi/shared_plus.png
+* app/src/main/res/drawable-hdpi/shared_plus2x.png
+* app/src/main/res/drawable-hdpi/speaker.png
+* app/src/main/res/drawable-hdpi/speaker2.png
+* app/src/main/res/drawable-hdpi/speaker_default.png
+* app/src/main/res/drawable-hdpi/speaker_follow.png
+* app/src/main/res/drawable-hdpi/spkeaker_master.png
+* app/src/main/res/drawable-hdpi/toloading.png
+* app/src/main/res/drawable-hdpi/un_mute.png
+* app/src/main/res/drawable-hdpi/unloading.png
+* app/src/main/res/drawable-hdpi/wifi.png
+* app/src/main/res/drawable-mdpi/
+* app/src/main/res/drawable-mdpi/background.png
+* app/src/main/res/drawable-mdpi/blue.png
+* app/src/main/res/drawable-mdpi/cloudmusic.png
+* app/src/main/res/drawable-mdpi/config.png
+* app/src/main/res/drawable-mdpi/folder1.png
+* app/src/main/res/drawable-mdpi/free.png
+* app/src/main/res/drawable-mdpi/group.png
+* app/src/main/res/drawable-mdpi/help.png
+* app/src/main/res/drawable-mdpi/home.png
+* app/src/main/res/drawable-mdpi/ic_launcher.png
+* app/src/main/res/drawable-mdpi/info.png
+* app/src/main/res/drawable-mdpi/launching.png
+* app/src/main/res/drawable-mdpi/localnetwork.png
+* app/src/main/res/drawable-mdpi/master.png
+* app/src/main/res/drawable-mdpi/more_button.png
+* app/src/main/res/drawable-mdpi/music.png
+* app/src/main/res/drawable-mdpi/next.png
+* app/src/main/res/drawable-mdpi/next2.png
+* app/src/main/res/drawable-mdpi/next_remote.png
+* app/src/main/res/drawable-mdpi/note.png
+* app/src/main/res/drawable-mdpi/note2.png
+* app/src/main/res/drawable-mdpi/nowplaying.png
+* app/src/main/res/drawable-mdpi/pause2.png
+* app/src/main/res/drawable-mdpi/pause_remote.png
+* app/src/main/res/drawable-mdpi/play.png
+* app/src/main/res/drawable-mdpi/play2.png
+* app/src/main/res/drawable-mdpi/play_remote.png
+* app/src/main/res/drawable-mdpi/prev_remote.png
+* app/src/main/res/drawable-mdpi/previous.png
+* app/src/main/res/drawable-mdpi/previous2.png
+* app/src/main/res/drawable-mdpi/refresh.png
+* app/src/main/res/drawable-mdpi/refresh2.png
+* app/src/main/res/drawable-mdpi/remote.png
+* app/src/main/res/drawable-mdpi/remote_control.png
+* app/src/main/res/drawable-mdpi/setting.png
+* app/src/main/res/drawable-mdpi/shared_music_node.png
+* app/src/main/res/drawable-mdpi/shared_music_node_big.png
+* app/src/main/res/drawable-mdpi/speaker.png
+* app/src/main/res/drawable-mdpi/speaker2.png
+* app/src/main/res/drawable-mdpi/speaker_default.png
+* app/src/main/res/drawable-mdpi/speaker_follow.png
+* app/src/main/res/drawable-mdpi/spkeaker_master.png
+* app/src/main/res/drawable-mdpi/un_mute.png
+* app/src/main/res/drawable-mdpi/wifi.png
+* app/src/main/res/drawable-xhdpi/
+* app/src/main/res/drawable-xhdpi/blue.png
+* app/src/main/res/drawable-xhdpi/cloudmusic.png
+* app/src/main/res/drawable-xhdpi/config.png
+* app/src/main/res/drawable-xhdpi/file.png
+* app/src/main/res/drawable-xhdpi/file_movie.png
+* app/src/main/res/drawable-xhdpi/file_music.png
+* app/src/main/res/drawable-xhdpi/file_picture.png
+* app/src/main/res/drawable-xhdpi/folder.png
+* app/src/main/res/drawable-xhdpi/folder1.png
+* app/src/main/res/drawable-xhdpi/free.png
+* app/src/main/res/drawable-xhdpi/group.png
+* app/src/main/res/drawable-xhdpi/help.png
+* app/src/main/res/drawable-xhdpi/home.png
+* app/src/main/res/drawable-xhdpi/ic_launcher.png
+* app/src/main/res/drawable-xhdpi/icon_dms.png
+* app/src/main/res/drawable-xhdpi/localnetwork.png
+* app/src/main/res/drawable-xhdpi/master.png
+* app/src/main/res/drawable-xhdpi/more_button.png
+* app/src/main/res/drawable-xhdpi/music.png
+* app/src/main/res/drawable-xhdpi/next.png
+* app/src/main/res/drawable-xhdpi/next2.png
+* app/src/main/res/drawable-xhdpi/next_remote.png
+* app/src/main/res/drawable-xhdpi/note.png
+* app/src/main/res/drawable-xhdpi/note2.png
+* app/src/main/res/drawable-xhdpi/nowplaying.png
+* app/src/main/res/drawable-xhdpi/pause2.png
+* app/src/main/res/drawable-xhdpi/pause_remote.png
+* app/src/main/res/drawable-xhdpi/play.png
+* app/src/main/res/drawable-xhdpi/play2.png
+* app/src/main/res/drawable-xhdpi/play_remote.png
+* app/src/main/res/drawable-xhdpi/prev_remote.png
+* app/src/main/res/drawable-xhdpi/previous.png
+* app/src/main/res/drawable-xhdpi/previous2.png
+* app/src/main/res/drawable-xhdpi/refresh2.png
+* app/src/main/res/drawable-xhdpi/remote.png
+* app/src/main/res/drawable-xhdpi/remote_control.png
+* app/src/main/res/drawable-xhdpi/setting.png
+* app/src/main/res/drawable-xhdpi/shared_music_node_big.png
+* app/src/main/res/drawable-xhdpi/speaker.png
+* app/src/main/res/drawable-xhdpi/speaker2.png
+* app/src/main/res/drawable-xhdpi/speaker_default.png
+* app/src/main/res/drawable-xhdpi/speaker_follow.png
+* app/src/main/res/drawable-xhdpi/spkeaker_master.png
+* app/src/main/res/drawable-xhdpi/un_mute.png
+* app/src/main/res/drawable-xhdpi/wifi.png
+* app/src/main/res/drawable-xxhdpi/
+* app/src/main/res/drawable-xxhdpi/blue.png
+* app/src/main/res/drawable-xxhdpi/cloudmusic.png
+* app/src/main/res/drawable-xxhdpi/config.png
+* app/src/main/res/drawable-xxhdpi/folder1.png
+* app/src/main/res/drawable-xxhdpi/free.png
+* app/src/main/res/drawable-xxhdpi/group.png
+* app/src/main/res/drawable-xxhdpi/help.png
+* app/src/main/res/drawable-xxhdpi/home.png
+* app/src/main/res/drawable-xxhdpi/ic_launcher.png
+* app/src/main/res/drawable-xxhdpi/localnetwork.png
+* app/src/main/res/drawable-xxhdpi/master.png
+* app/src/main/res/drawable-xxhdpi/more_button.png
+* app/src/main/res/drawable-xxhdpi/music.png
+* app/src/main/res/drawable-xxhdpi/next.png
+* app/src/main/res/drawable-xxhdpi/next2.png
+* app/src/main/res/drawable-xxhdpi/next_remote.png
+* app/src/main/res/drawable-xxhdpi/note.png
+* app/src/main/res/drawable-xxhdpi/note2.png
+* app/src/main/res/drawable-xxhdpi/nowplaying.png
+* app/src/main/res/drawable-xxhdpi/pause2.png
+* app/src/main/res/drawable-xxhdpi/pause_remote.png
+* app/src/main/res/drawable-xxhdpi/play.png
+* app/src/main/res/drawable-xxhdpi/play2.png
+* app/src/main/res/drawable-xxhdpi/play_remote.png
+* app/src/main/res/drawable-xxhdpi/prev_remote.png
+* app/src/main/res/drawable-xxhdpi/previous.png
+* app/src/main/res/drawable-xxhdpi/previous2.png
+* app/src/main/res/drawable-xxhdpi/refresh2.png
+* app/src/main/res/drawable-xxhdpi/remote.png
+* app/src/main/res/drawable-xxhdpi/remote_control.png
+* app/src/main/res/drawable-xxhdpi/setting.png
+* app/src/main/res/drawable-xxhdpi/speaker.png
+* app/src/main/res/drawable-xxhdpi/speaker2.png
+* app/src/main/res/drawable-xxhdpi/speaker_default.png
+* app/src/main/res/drawable-xxhdpi/speaker_follow.png
+* app/src/main/res/drawable-xxhdpi/spkeaker_master.png
+* app/src/main/res/drawable-xxhdpi/un_mute.png
+* app/src/main/res/drawable-xxhdpi/wifi.png
+* app/src/main/res/drawable/
+* app/src/main/res/drawable/bg_pager_title_strip.xml
+* app/src/main/res/drawable/border.xml
+* app/src/main/res/drawable/digborder.xml
+* app/src/main/res/drawable/item_selector.xml
+* app/src/main/res/drawable/nextimg.xml
+* app/src/main/res/drawable/noteimg.xml
+* app/src/main/res/drawable/playimg.xml
+* app/src/main/res/drawable/previousimg.xml
+* app/src/main/res/drawable/seekbar_thumb.xml
+* app/src/main/res/drawable/seekbar_thumb_big.xml
+* app/src/main/res/drawable/speakerimg.xml
+* app/src/main/res/layout/
+* app/src/main/res/layout/activity_ddmsmain.xml
+* app/src/main/res/layout/activity_library.xml
+* app/src/main/res/layout/activity_main.xml
+* app/src/main/res/layout/browselocal_activity.xml
+* app/src/main/res/layout/confloading.xml
+* app/src/main/res/layout/custom_drawer_item.xml
+* app/src/main/res/layout/dialog.xml
+* app/src/main/res/layout/dialog_config.xml
+* app/src/main/res/layout/dialog_ddms.xml
+* app/src/main/res/layout/didlobject_listview_item.xml
+* app/src/main/res/layout/dmr_listview_item.xml
+* app/src/main/res/layout/dmrlist_activitiy.xml
+* app/src/main/res/layout/dms_listview_item.xml
+* app/src/main/res/layout/dmsbrowser_activity.xml
+* app/src/main/res/layout/dmslist_activity.xml
+* app/src/main/res/layout/editdialog.xml
+* app/src/main/res/layout/form1.xml
+* app/src/main/res/layout/group_header_item.xml
+* app/src/main/res/layout/info.xml
+* app/src/main/res/layout/item_master.xml
+* app/src/main/res/layout/item_speakers.xml
+* app/src/main/res/layout/item_volume.xml
+* app/src/main/res/layout/item_wifi.xml
+* app/src/main/res/layout/list_row.xml
+* app/src/main/res/layout/lmplayout.xml
+* app/src/main/res/layout/loding.xml
+* app/src/main/res/layout/main.xml
+* app/src/main/res/layout/mainview.xml
+* app/src/main/res/layout/mastersetting.xml
+* app/src/main/res/layout/network.xml
+* app/src/main/res/layout/notice.xml
+* app/src/main/res/layout/pwddialog.xml
+* app/src/main/res/layout/remotecommand.xml
+* app/src/main/res/layout/remotecommand_item.xml
+* app/src/main/res/layout/setting.xml
+* app/src/main/res/layout/soundsetting.xml
+* app/src/main/res/layout/speakeradvanced.xml
+* app/src/main/res/layout/target_item.xml
+* app/src/main/res/layout/volumelist.xml
+* app/src/main/res/menu/
+* app/src/main/res/menu/activity_main_actions.xml
+* app/src/main/res/menu/ddms_main_actions.xml
+* app/src/main/res/menu/ddmsmain.xml
+* app/src/main/res/menu/group_actions.xml
+* app/src/main/res/menu/main.xml
+* app/src/main/res/menu/main_menu.xml
+* app/src/main/res/values/
+* app/src/main/res/values/action_style.xml
+* app/src/main/res/values/arrays.xml
+* app/src/main/res/values/color.xml
+* app/src/main/res/values/dimension.xml
+* app/src/main/res/values/strings.xml
+* app/src/main/res/values/styles.xml
+* app/src/main/res/xml/
+* app/src/main/res/xml/pref.xml
+* build.gradle
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* settings.gradle
+* version.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* libs/cling-core-1.0.5.jar => app/libs/cling-core-1.0.5.jar
+* libs/cling-support-1.0.5.jar => app/libs/cling-support-1.0.5.jar
+* libs/http-20070405.jar => app/libs/http-20070405.jar
+* libs/teleal-common-1.0.13.jar => app/libs/teleal-common-1.0.13.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_joinall"
+        android:icon="@drawable/group"
+        android:title="JoinAll"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_freeall"
+        android:icon="@drawable/free"
+        android:title="FreeAll"
+        app:showAsAction="always" />
+    
+    
+</menu>

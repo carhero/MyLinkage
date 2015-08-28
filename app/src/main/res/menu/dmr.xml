@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dmr_menu_refresh"
+        android:enabled="true"
+        android:menuCategory="system"
+        app:showAsAction="always"
+        android:icon="@drawable/dmr_refresh"
+        android:title="@string/dmr_refresh"
+        android:visible="true">
+    </item>
+</menu>

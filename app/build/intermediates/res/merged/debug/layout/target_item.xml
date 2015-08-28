@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@android:color/white"
+    >
+    
+     <!-- icon -->
+     <ImageView
+         android:id="@+id/item_icon"
+         android:layout_width="32dp"
+         android:layout_height="32dp"
+         android:layout_alignParentLeft="true"
+         android:layout_marginLeft="8dp"
+         android:layout_marginRight="8dp"
+         android:layout_marginTop="8dp"
+
+         />
+    	 
+    <!-- title -->
+    <TextView
+         android:id="@+id/item_title"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_toRightOf="@+id/item_icon"
+         android:layout_alignBaseline="@+id/item_counter"
+
+         android:gravity="center"
+    android:lines="1"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:paddingTop="17dp"
+        android:text="MyPhone"
+        android:textColor="@drawable/item_selector"
+        android:textSize="17sp"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:paddingBottom="4dp"
+
+
+          />
+
+        <!-- counter -->
+        <ImageView
+            android:id="@+id/item_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:src="@drawable/more_button"
+
+
+            android:clickable="true"
+            android:focusable="false"
+            android:background="@android:color/transparent"
+
+
+            android:gravity="center"
+	        android:textColor="#ffca6ab7"
+            android:textSize="15sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+             />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/state"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_height="wrap_content" />
+
+
+	
+</RelativeLayout>
+<!-- From: file:/D:/Project/AndroidProject/LibreAppProj/app/src/main/res/layout/target_item.xml -->

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:summary="Application"
+        android:title="Application" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="kill_process"
+            android:summary="WARNING: Not recommended. Use this option only when application do something wrong."
+            android:title="Kill process after exit" />
+
+
+    </PreferenceCategory>
+     <PreferenceCategory
+        android:summary="DDMS Settings"
+        android:title="DDMS Settings" >
+        <ListPreference
+            android:defaultValue="5"
+            android:entries="@array/groupsPerLoad"
+            android:entryValues="@array/groupsPerLoadValues"
+            android:key="max_ddms_groups"
+            android:summary="Define how many DDMS groups can be allowed "
+            android:title="Max DDMS groups" />
+
+
+         <CheckBoxPreference
+             android:defaultValue="true"
+             android:key="hide_dmr_list"
+             android:summary="Hide Slaves"
+             android:title="Hide  Slaves in Zone Creation Page" />
+    
+      </PreferenceCategory>
+
+
+
+    <PreferenceCategory
+        android:summary="Counts "
+        android:title="Device Count">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="station"
+        android:summary="The count will be displayed in luci discovery Second page"
+        android:title="Count in Selection Stations" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="zone"
+        android:title="show the count in Station Selection"
+        android:summary="The count will be displayed in luci discovery first page" />
+    </PreferenceCategory>
+
+
+
+<PreferenceCategory
+    android:summary="DMR Settings"
+    android:title="DMR Settings">
+
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="dmr_text"
+        android:summary="Warning Don't use it unless you need,It might make app crash  it will show the dmr is available or  not in the list:"
+
+        android:title="Show DMR in the list" />
+
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="hide_dmr"
+        android:summary="WARNING: Enabling this will enable separate DMR Selection list in PlayScreen"
+        android:title="Hide DMR List" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="dmr_refresh"
+        android:summary="The DMR Refresh button will be added into Tittle bar"
+        android:title="Show DMR Refresh" />
+</PreferenceCategory>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="ext"
+        android:title=" Extension "
+        android:summary="Show the file format extension" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="force"
+        android:title=" Remove DMR PlayLIST "
+        android:summary="Warning: Remove the dmr Playlist forcibly from app.It will misbehave  " />
+
+
+
+</PreferenceScreen><!-- From: file:/D:/Project/AndroidProject/LibreAppProj/app/src/main/res/xml/pref.xml -->

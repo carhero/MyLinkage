@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Search / will display always -->
+
+    <item android:id="@+id/action_networksetup"
+        android:icon="@drawable/config"
+        android:title="@string/NetworkSetup"
+        app:showAsAction="ifRoom" />
+
+    <!--
+    <item android:id="@+id/action_networksetup1"
+        android:icon="@drawable/config"
+        android:title="@string/NetworkSetup"
+        app:showAsAction="always" />
+    -->
+
+    <item android:id="@+id/settings"
+          android:icon="@drawable/menu_settings"
+          android:title="@string/settings"
+          app:showAsAction="always"/>
+
+    <!-- Check updates -->
+    <item android:id="@+id/action_firmwareupdate"
+          android:icon="@drawable/cloudmusic"
+          android:title="@string/Updates"
+          app:showAsAction="ifRoom" />
+</menu>
+<!-- From: file:/D:/Project/AndroidProject/LibreAppProj/app/src/main/res/menu/activity_main_actions.xml -->

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@android:color/white"
+    >
+    
+     <!-- icon -->
+     <ImageView
+         android:id="@+id/item_icon"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_marginLeft="8dp"
+         android:src="@drawable/folder1"
+
+
+         />
+    	 
+    <!-- title -->
+    <TextView
+         android:id="@+id/item_title"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_toRightOf="@+id/item_icon"
+        android:layout_marginLeft="5dp"
+
+        android:gravity="center"
+        android:lines="1"
+        android:singleLine="true"
+
+        android:paddingTop="17dp"
+        android:text="MyPhone"
+        android:textColor="#ff000014"
+        android:textSize="17sp"
+
+
+
+
+          />
+
+        <!-- counter -->
+
+
+</RelativeLayout>
+<!-- From: file:/D:/Project/AndroidProject/LibreAppProj/app/src/main/res/layout/remotecommand_item.xml -->

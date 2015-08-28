@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.libre.client.activity"
+    android:versionCode="50"
+    android:versionName="22.1.5" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.libre.client.activity.LibreApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.MyTheme" >
+        <activity
+            android:name="com.libre.client.activity.LodingActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.libre.client.activity.MainActivity"
+            android:launchMode="singleTask" />
+        <activity android:name="com.libre.client.activity.SettingsActivity" />
+        <activity android:name="com.libre.client.activity.DMSBrowserActivity" />
+        <activity
+            android:name="com.libre.client.activity.LmpListViewActivity1"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.libre.client.activity.NetconfigActivity" />
+        <activity android:name="com.libre.client.activity.DMRActivity" />
+        <activity android:name="com.libre.client.activity.DMSListActivity" />
+        <activity android:name="com.libre.client.activity.Version1" />
+        <activity android:name="com.libre.client.activity.GroupListActivity" />
+        <activity android:name="com.libre.client.activity.LmpListViewActivity" />
+        <activity android:name="com.libre.client.activity.LuciMessenger" />
+
+        <service android:name="com.app.dlna.dmc.processor.upnp.CoreUpnpService" />
+
+        <receiver android:name="com.libre.client.activity.NetworkStateReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="android.support.v7.widget.TestActivity"
+            android:label="RecyclerViewTestActivity" />
+    </application>
+
+</manifest>

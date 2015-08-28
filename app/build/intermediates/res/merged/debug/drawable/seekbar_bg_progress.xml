@@ -1,0 +1,17 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+        <shape>
+            <gradient
+                android:startColor="#ffff5b27"
+                android:centerColor="#ff60bf2b"
+                android:centerY="0.75"
+                android:endColor="#fffffe2f"
+                android:angle="270"
+                />
+        </shape>
+    </item>
+
+
+
+</layer-list><!-- From: file:/D:/Project/AndroidProject/LibreAppProj/app/src/main/res/drawable/seekbar_bg_progress.xml -->

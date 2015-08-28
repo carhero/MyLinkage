@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <dimen android:id="@+id/norBtnSize" name="norBtnSize">40dp</dimen>
+    <dimen android:id="@+id/norEdgeMargin" name="norEdgeMargin">20dp</dimen>
+    <dimen android:id="@+id/titleHeight" name="titleHeight">50dp</dimen>
+    <dimen android:id="@+id/titleLogoHeight" name="titleLogoHeight">30dp</dimen>
+    <dimen android:id="@+id/listItemMarginTop" name="listItemMarginTop">5dp</dimen>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+    
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titleHeight"
+        android:layout_marginTop="10dp" >
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="@dimen/norBtnSize"
+            android:layout_height="@dimen/norBtnSize"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/norEdgeMargin"
+            android:background="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/launching1" />
+
+        <ImageButton
+            android:id="@+id/nowplaying"
+            android:layout_width="@dimen/norBtnSize"
+            android:layout_height="@dimen/norBtnSize"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/norEdgeMargin"
+            android:background="@drawable/nowplaying" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/choosesong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/choosesong"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+
+    <ListView
+        android:id="@+id/lv_ServerContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@color/transparent"
+        android:layout_below="@id/choosesong"
+        android:divider="@color/transparent"
+        android:dividerHeight="1dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginBottom="10dp" >
+    </ListView>
+
+</RelativeLayout><!-- From: file:/D:/Project/AndroidProject/LibreAppProj/app/src/main/res/layout/dmsbrowser_activity.xml -->

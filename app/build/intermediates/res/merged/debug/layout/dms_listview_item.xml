@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/listItemMarginTop"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/deviceName"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="50dp"
+            android:layout_alignParentLeft="true"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:paddingTop="12dp"
+            android:text="MyPhone"
+            android:textColor="@drawable/item_selector"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/mydeviceIcon"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitCenter"
+            android:src="@drawable/localnetwork" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll"
+        android:layout_marginTop="5dp"
+        android:baselineAlignBottom="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:src="@drawable/line" />
+
+</RelativeLayout><!-- From: file:/D:/Project/AndroidProject/LibreAppProj/app/src/main/res/layout/dms_listview_item.xml -->

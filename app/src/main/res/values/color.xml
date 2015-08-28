@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey">#828282</color>
+    <color name="transgrey">#64828282</color>
+    <color name="orgen">#FD6505</color>
+    <color name="transparent">#00000000</color>
+    <color name="halftransparent">#BFFFFFFF</color>
+    <color name="diagback">#E4E4E4</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0375EF</color>
+    <color name="purple">#A9188D</color>
+    <color name="darkred" >#FFCC0000</color>
+</resources>
